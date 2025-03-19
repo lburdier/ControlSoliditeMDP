@@ -1,0 +1,57 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Thème principal de l'application -->
+    <style name="Theme.ControlSoliditeMDP" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Couleurs principales -->
+        <item name="colorPrimary">@color/greenGPT</item>
+        <item name="colorPrimaryVariant">@color/darkGreenGPT</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Couleurs secondaires -->
+        <item name="colorSecondary">@color/lightGrayGPT</item>
+        <item name="colorSecondaryVariant">@color/grayGPT</item>
+        <item name="colorOnSecondary">@color/blackGPT</item>
+
+        <!-- Couleur de la barre de statut -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+
+        <!-- Fond global -->
+        <item name="android:windowBackground">@color/blackGPT</item>
+
+        <!-- Styles des boutons -->
+        <item name="buttonStyle">@style/Widget.App.ButtonGPT</item>
+
+        <!-- Styles des EditText -->
+        <item name="editTextStyle">@style/Widget.App.EditTextGPT</item>
+
+        <!-- Style des TextViews -->
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- Style des boutons arrondis -->
+    <style name="Widget.App.ButtonGPT" parent="Widget.MaterialComponents.Button">
+        <item name="android:backgroundTint">@color/greenGPT</item>
+        <item name="android:textColor">@color/blackGPT</item>
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearance.GPT.Rounded</item>
+    </style>
+
+    <!-- Style des TextViews avec effet carte -->
+    <style name="Widget.App.TextViewGPT" parent="Widget.MaterialComponents.CardView">
+        <item name="android:background">@color/grayGPT</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearance.GPT.Rounded</item>
+    </style>
+
+    <!-- Style des champs de texte -->
+    <style name="Widget.App.EditTextGPT" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorHint">@color/lightGrayGPT</item>
+        <item name="boxBackgroundColor">@color/grayGPT</item>
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearance.GPT.Rounded</item>
+    </style>
+
+    <!-- Apparence arrondie des composants -->
+    <style name="ShapeAppearance.GPT.Rounded" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerSize">16dp</item>
+    </style>
+</resources>

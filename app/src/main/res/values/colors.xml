@@ -1,0 +1,8 @@
+<resources>
+    <color name="greenGPT">#10A37F</color> <!-- Vert ChatGPT -->
+    <color name="darkGreenGPT">#076D56</color> <!-- Vert foncé -->
+    <color name="lightGrayGPT">#E6E6E6</color> <!-- Gris clair -->
+    <color name="grayGPT">#2D2D2D</color> <!-- Gris moyen -->
+    <color name="blackGPT">#1E1E1E</color> <!-- Noir profond -->
+    <color name="white">#FFFFFF</color> <!-- Blanc -->
+</resources>
