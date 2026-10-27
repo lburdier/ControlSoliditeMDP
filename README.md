@@ -103,4 +103,4 @@ The interface is **tuned for a smooth experience**:
 
 ## License
 
-MIT © 2025 — **BURDIER Lucas**
+MIT © 2025 **BURDIER Lucas**
